@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* -- navigation bar -- */
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+    position: sticky;
+}
+
+.navbarlist{
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+i{
+margin-left: 3%;
+}
+
+.navbarlist li{
+    list-style: none;
+    padding: 24px 36px;
+    font-size: 117%;
+    
+}
+
+.navbarlist li a{
+    color: rgb(247, 242, 242);
+    text-decoration: none;
+}
+
+.navbarlist li a:hover{
+    color: blue;
+}
+
+.rightnav{
+    width: 50%;
+    text-align: end;
+}
+
+.search {
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.btn1 {
+    cursor: pointer;
+    padding: 2px 9px;
+    margin-right: 12px;
+    border-radius: 12px;
+    border: 2px white solid;
+    background: white
+}
+
+button.btn1:hover {
+    background:#1f2e32;;
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.603) url('../img/bg.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* -- first section -- */
+
+.firstsection{
+    height: 95vh;
+}
+
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 56%;
+    margin: auto;
+    height: 79%;
+}
+
+.firsthalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 66%;
+}  
+
+.secondhalf {
+    width: 41%;
+}
+
+.secondhalf img {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.textbig{
+    font-size: 2.6rem;
+    padding-bottom: 1.5%;
+}
+
+.smalltext{
+   font-size: 17px;
+}
+
+.btn{
+    padding: 6px 18px;
+    margin: 7px 0px;
+    border: 2px white solid;
+    border-radius: 14px;
+    cursor: pointer;
+    color: white;
+    background: none;
+}
+
+.btn:hover{
+    color: black;
+    background: rgb(214, 208, 208);
+}
+
+  
+/* -- 2nd section -- */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 80%;
+    margin: auto;
+    height: 55vh;
+    
+}
+
+.para{
+    padding-top: 4%;
+    max-width: 71%;
+    padding-bottom: 2%;
+}
+
+.fluidimage {
+    width: 100%;
+    margin-left: 16%;
+    border-radius: 4%;
+}
+
+.middleimg1{
+    margin-left: 0;
+}
+
+.thumbnail{
+    width: 22%;
+}
+
+.leftsection{
+    flex-direction: row-reverse;
+}
+
+.para1{
+    margin-left: 5%;
+}
+
+
+
+/* -- contact section -- */
+
+/* .contact {
+    background-color: #eaeaeab3;
+} */
+
+.contact {
+    background-color: #ded9d99c;
+}
+
+h1{
+    text-align: center;
+    padding-top: 1.5%;
+    font-size: 2rem;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.form input {
+    width: 31%;
+    padding: 8px;
+    margin: 13px;
+    border-radius: 10px;
+}
+
+.btn2{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 26px;
+    outline: none;
+    background-color: white;
+}
+
+#desc{
+    margin-top: 1.3%;
+    width: 30%;
+    height: 25vh;
+    border-radius: 10px;
+    padding: 1%;
+    border: 2px black solid;
+}
+
+
+
+/* -- footer -- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.burger {
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    display: none;
+    margin-top: 1%;
+   }
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 3px;
+  }
+
+
+
+
+
+  /* -- sponser section -- */
+
+
+#sponsorsSection{
+    background-color: #ebe8e836;
+}
+
+#sponsorsSection h2 {
+    padding-top: 27px;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+#sponsors {
+    display: flex;
+    padding-top: 29px;
+    padding-bottom: 44px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.p1 {
+    max-width: 55%;
+}
+
+.p2 {
+    width: 57%;
+}
+
+.p3 {
+    width: 84%;
+}
+
+.p4 {
+    
+    margin: 29px;
+    max-width: 63%;
+}
+
+#p1{
+    width: 50%;
+}
+#p2{
+    width: 50%;
+}
+#p3{
+    width: 50%;
+}
+
+#p4{
+    width: 50%;
+}

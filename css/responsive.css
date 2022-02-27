@@ -1,0 +1,193 @@
+
+
+/* -- media queries -- */
+
+
+@media only screen and (max-width:1570px ) and (min-width: 1165px){
+
+.section {
+    margin-bottom: 44px;
+    margin-top: 40px;
+}
+
+
+}
+
+
+@media only screen and (max-width:1165px ) and (min-width: 500px){
+  
+    .navbar{
+        flex-direction: column;
+        transition: all 1s ease-out;
+        height: 56vh
+    }
+
+   .navbarlist {
+       flex-direction: column;
+   }
+
+   .rightnav{
+       text-align: center;
+       width: 100%;
+   }
+
+  .burger{
+      display: block;
+  }
+
+  .hnav{
+      height: 8vh;
+  }
+  .vclass{
+      opacity: 0;
+  }
+
+  .boxmain{
+    max-width: 91%;
+    flex-direction: column-reverse;
+  }
+
+
+  .section {
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 7px;
+}
+
+
+.form input {
+    width: 67%;
+    margin: 9px;
+    border-radius: 10px;
+}
+
+#desc {
+    width: 68%;
+    height: 18vh;
+}
+
+.leftsection {
+    
+    padding-bottom: 17px;
+}
+
+.fluidimage {
+    margin-top: 40px;
+    width: 123%;
+    margin-left: 0;
+}
+
+}
+
+
+@media only screen and (max-width:500px ){
+
+
+    .navbar{
+        flex-direction: column;
+        transition: all 1s ease-out;
+        height: 56vh
+    }
+
+   .navbarlist {
+       flex-direction: column;
+   }
+
+   .rightnav{
+       text-align: center;
+       width: 100%;
+   }
+
+  .burger{
+      display: block;
+  }
+
+  .hnav{
+      height: 6vh;
+  }
+  .vclass{
+      opacity: 0;
+  }
+
+  .boxmain{
+    max-width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .firstsection {
+    height: auto;
+}
+
+.form input {
+    width: 67%;
+    margin: 9px;
+    border-radius: 10px;
+}
+
+#desc {
+    width: 68%;
+    height: 18vh;
+}
+
+.section{ 
+    height: 100%;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.fluidimage {
+   
+    margin-left: -26px;
+    border-radius: 4%;
+    margin-top: 23px;
+    width: 160%;
+}
+
+.smalltext {
+    margin-bottom: 25px;
+}
+
+}
+
+
+
+@media only screen and (max-width:500px ){
+
+#sponsors {
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    max-width: 22vh;
+}
+
+.p2 {
+    max-width: 17vh;
+}
+
+.p3 {
+    max-width: 35vh;
+}
+
+.p4 {
+    max-width: 32vh;
+}
+
+ul img{
+    display: block;
+   
+    margin: auto;
+}
+
+.p4{
+    display: block;
+    margin: auto;
+}
+
+#p1 {
+    width: 61%;
+}
+
+}
