@@ -3,8 +3,11 @@
     padding: 0%;
 }
 
-/* -- navigation bar -- */
+html{
+    scroll-behavior: smooth;
+}
 
+/* -- navigation bar -- */
 
 .navbar{
     display: flex;
@@ -13,6 +16,7 @@
     top: 0;
     cursor: pointer;
     position: sticky;
+    z-index: 1;
 }
 
 .navbarlist{
@@ -66,7 +70,7 @@ button.btn1:hover {
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.603) url('bg.png');
+    background: rgba(0, 0, 0, 0.603) url('../img/bg.png');
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -143,7 +147,7 @@ button.btn1:hover {
 
 .para{
     padding-top: 4%;
-    max-width: 86%;
+    max-width: 71%;
     padding-bottom: 2%;
 }
 
@@ -170,12 +174,8 @@ button.btn1:hover {
 }
 
 
-
 /* -- contact section -- */
 
-/* .contact {
-    background-color: #eaeaeab3;
-} */
 
 .contact {
     background-color: #ded9d99c;
@@ -251,10 +251,6 @@ h1{
     margin: 4px 3px;
   }
 
-
-
-
-
   /* -- sponser section -- */
 
 
@@ -308,4 +304,31 @@ h1{
 
 #p4{
     width: 50%;
+}
+
+/* .fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+} */
+
+.from-right{
+    transform: translateX(50%);
+}
+
+.from-left{
+    transform: translateX(-50%);
+}
+
+.from-left,
+.from-right{
+    transition: transform 400ms ease-in;
+}
+
+.from-left.appear,
+.from-right.appear{
+    transform: translateX(0);
 }
