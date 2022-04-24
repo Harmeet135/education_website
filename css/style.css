@@ -70,7 +70,7 @@ button.btn1:hover {
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.603) url('img/bg.png');
+    background: rgba(0, 0, 0, 0.603) url('bg.png');
     background-size: cover;
     background-blend-mode: darken;
 }
